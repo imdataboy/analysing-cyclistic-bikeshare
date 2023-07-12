@@ -170,7 +170,7 @@ repeating the same thing for end_station_name.
 ### **Using SQL**
 I used SQL to clean the dates in our dataset and calculated the trip duration in minutes.  
 
-![](analysing-cyclistic-bikeshare/ss/cleaning dates using sql and calculatinf the trip duration in mins.png)  
+![Image: trip duration in minutes](./ss/cleaning dates using sql and calculatinf the trip duration in mins.png)  
 
 **Notice that we have values that are less than 0 in the trip_duration_min column ?**  
 
