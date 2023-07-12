@@ -170,7 +170,7 @@ repeating the same thing for end_station_name.
 ### **Using SQL**
 I used SQL to clean the dates in our dataset and calculated the trip duration in minutes.  
 
-![Image: trip duration in minutes](ss/cleaning column_names.png)  
+![Image: trip duration in minutes (ss/cleaning%20dates%20using%20sql%20and%20calculatinf%20the%20trip%20duration%20in%20mins.png)  
   
 
 **Notice that we have values that are less than 0 in the trip_duration_min column ?**  
