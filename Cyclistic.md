@@ -170,33 +170,35 @@ repeating the same thing for end_station_name.
 ### **Using SQL**
 I used SQL to clean the dates in our dataset and calculated the trip duration in minutes.  
 
-![Image: trip duration in minutes](ss/cleaning%20dates%20using%20sql%20and%20calculatinf%20the%20trip%20duration%20in%20mins.png)
+![Image: trip duration in minutes](ss/cleaning%20dates%20using%20sql%20and%20calculatinf%20the%20trip%20duration%20in%20mins.png)  
   
 
 **Notice that we have values that are less than 0 in the trip_duration_min column ?**  
 
-![](C:/Users/isach/OneDrive/Bureau/projects/notice we have less than 0 values.png)  
+![Image: negative values](ss/notice%20we%20have%20less%20than%200%20values.png)     
 
 Let's fix that !!  
 
-![](C:/Users/isach/OneDrive/Bureau/projects/cleaning our trip_duration_min column.png)
+![Image: cleaning our trip_duration_min column](ss/cleaning%20our%20trip_duration_min%20column.png)  
+
 Let's now check.  
 
-![](C:/Users/isach/OneDrive/Bureau/projects/no less than 0 values.png)
+![Image: no negative values](ss/no%20less%20than%200%20values.png)  
 
 Now that our data is ready, let's make one final modification before proceeding.  
 
 ### Cleaning columns names  
 
-![](C:/Users/isach/OneDrive/Bureau/projects/cleaning column_names.png)
-![](C:/Users/isach/OneDrive/Bureau/projects/cleaning bike_type column.png)  
+![Image: cleaning column names](ss/cleaning%20column_names.png)  
+
+![Image: cleaning bike_type column](ss/cleaning%20bike_type%20column.png)    
 
 ## Analysing and Visualizing the data    
 
 
 i added new columns to our data frame using **SQL**.  
 
-![](C:/Users/isach/OneDrive/Bureau/projects/adding month, season, year.png)
+![Image: adding month, season, year](ss/adding%20month,%20season,%20year.png)  
 
 Importing our new data frame.  
 
