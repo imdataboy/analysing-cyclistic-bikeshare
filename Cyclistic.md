@@ -101,7 +101,7 @@ trips_data <- read_csv("C:/Users/isach/OneDrive/Bureau/projects/dataset/202207-d
 ## cleaning the data
 ### tools used
 **SQL:** To process and clean the data.  
-**R : ** To analyse and visualize the data.
+**R :** To analyse and visualize the data.
 
 ### **using R**
 
@@ -169,7 +169,7 @@ repeating the same thing for end_station_name.
 
 ### **Using SQL**
 I used SQL to clean the dates in our dataset and calculated the trip duration in minutes.
-![](C:/Users/isach/OneDrive/Bureau/projects/cleaning dates using sql and calculatinf the trip duration in mins.png).  
+![](./ss/cleaning dates using sql and calculatinf the trip duration in mins.png)).  
 
 **Notice that we have values that are less than 0 in the trip_duration_min column ?**  
 
