@@ -28,8 +28,8 @@ How do annual members and casual riders use Cyclistic bikes differently?
 
 
 ### Stakeholders
-**Primary stakeholders: **Lily Moreno  
-**secondary stakeholders: **Cyclistic executive team
+**Primary stakeholders:** Lily Moreno  
+**secondary stakeholders:** Cyclistic executive team
 
 ## about the data  
 - the data is located in a source [url](https://divvy-tripdata.s3.amazonaws.com/index.html), provided by Motivate International Inc.  
@@ -262,7 +262,7 @@ basic_stats <- bikeshare %>%
           'mean_trip_duration_mins' = mean(trip_duration_min),
           trips_more_than_24h = sum(trip_duration_min >= 1440))
 ```
-![](C:/Users/isach/OneDrive/Bureau/projects/x.png)
+![x](ss/x.png)  
 
 **N.B: casual users take longer trips than the annual members.**  
 
@@ -276,7 +276,7 @@ plot_1 <- ggplot(data = bikeshare, mapping = aes(x=user_type, fill = user_type))
 plot_1
 ```
 
-![plot of chunk unnamed-chunk-9](figure/unnamed-chunk-9-1.png)
+![Image: User Type Distribution](plots/User%20Type%20Distribution.png)  
 
 **N.B: The number of annual members exceeds the number of casual users.**    
 
@@ -291,7 +291,7 @@ plot_2 <- ggplot(data = basic_stats)+
 plot_2
 ```
 
-![plot of chunk unnamed-chunk-10](figure/unnamed-chunk-10-1.png)
+![Image: Average Trip Duration by User Types](plots/avg%20trip%20duration%20by%20user%20types.png)  
 
 **N.B: casual users travel longer than the annual members**  
 
@@ -321,7 +321,7 @@ plot_3 <- ggplot(data = weekly_count) +
 plot_3
 ```
 
-![plot of chunk unnamed-chunk-11](figure/unnamed-chunk-11-1.png)
+![Image: Trips by User Types Throughout the Week](plots/trips%20by%20User%20Types%20Throughout%20the%20Week.png)  
 
 #### Visualizing user type distribution across weekdays  
 
@@ -335,7 +335,7 @@ plot_4 <- ggplot(data = weekly_count)+
 plot_4
 ```
 
-![plot of chunk unnamed-chunk-12](figure/unnamed-chunk-12-1.png)
+![Image: Number of trips by User Types Throughout the Week](plots/barchart%20Number%20of%20trips%20by%20User%20Types%20Throughout%20the%20Week.png)  
 
 **N.B:** 
 - Weekdays: Annual members consistently have higher trip counts than casual users.
@@ -358,7 +358,7 @@ plot_5 <- ggplot(data = trips_per_month)+
 plot_5
 ```
 
-![plot of chunk unnamed-chunk-13](figure/unnamed-chunk-13-1.png)
+![Image: Number of trips by User Types Throughout the year](plots/Number%20of%20trips%20by%20User%20Types%20Throughout%20the%20year.png)  
 
 **N.B: **
 Annual members uses Cyclistic services more frequently compared to casual users. However, an interesting pattern emerged during the spring months (March, April, May) where the number of casual members started to increase. This increase continued into the summer months, resulting in a similar level of bike rentals for both annual and casual members. However, as autumn arrived (September, October, November), the number of casual user rentals began to decrease once again. This indicates a seasonal fluctuation in the usage patterns, with casual users showing a notable increase during spring and summer, but declining in autumn and winter.  
@@ -379,16 +379,16 @@ plot_6 <- ggplot(data = bikes)+
 plot_6
 ```
 
-![plot of chunk unnamed-chunk-14](figure/unnamed-chunk-14-1.png)
+![Image: Number of bikes used throughout the seasons by different bike types](plots/Number%20of%20bikes%20used%20throughout%20the%20seasons%20by%20different%20bike%20types.png)  
 
 
 #### top 10 pick_up locations  
 
-![](C:/Users/isach/OneDrive/Bureau/projects/2_top 10 pick up location.png)  
+![Image: Top 10 Pick-up Locations](ss/2_top%2010%20pick%20up%20location.png)    
 
 #### top 10 trips  
 
-![](C:/Users/isach/OneDrive/Bureau/projects/1_top 10 trips.png)  
+![Image: Top 10 Trips](ss/1_top%2010%20trips.png)    
 
 #### Vsualizing the diffrent types of bikes by user types  
 
@@ -407,7 +407,8 @@ ggplot(data = bike_types) +
        y = "number of rider types using bike")
 ```
 
-![plot of chunk unnamed-chunk-15](figure/unnamed-chunk-15-1.png)
+![Image: Choice of Bike Types between Rider Types](plots/choice%20of%20bike%20types%20between%20rider%20types.png)  
+
 **N.B: casual riders uses all types of bikes. annual members prefer classic bikes. classic bikes are the most popular between the 3 types.**    
 
 ## Conclusion  
