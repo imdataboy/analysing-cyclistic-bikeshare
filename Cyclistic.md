@@ -168,7 +168,8 @@ clean_names_start <- filter(data_ride_id_removed,
 repeating the same thing for end_station_name.  
 
 ### **Using SQL**
-I used SQL to clean the dates in our dataset and calculated the trip duration in minutes.
+I used SQL to clean the dates in our dataset and calculated the trip duration in minutes.  
+
 ![](ss/cleaning dates using sql and calculatinf the trip duration in mins.png)).  
 
 **Notice that we have values that are less than 0 in the trip_duration_min column ?**  
